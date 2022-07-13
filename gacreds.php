@@ -29,7 +29,7 @@ function initClient(credi){
 
 }
 var gcreds = {
- 
+ //removed
 };
 // function logIn() {
 //   gapi.client.init(gcreds);
