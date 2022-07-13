@@ -7,7 +7,7 @@
 <script type="text/javascript">
 var loggedIn;
 var firebaseConfig = {
-
+    //removed for security 
 };
 var GoogleAuth; // Google Auth object.
 firebase.initializeApp(firebaseConfig);
@@ -29,10 +29,7 @@ function initClient(credi){
 
 }
 var gcreds = {
-  'apiKey': 'AIzaSyDR53wNnENbFeOymPE-ghDkgG93F2dwQpA',
-  'clientId': '1043966159415-0kspdv02a2tdfjtj6r5sj7gcgs3t15vk.apps.googleusercontent.com',
-  'scope': 'https://www.googleapis.com/auth/calendar',
-  'discoveryDocs': ['https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest']
+ 
 };
 // function logIn() {
 //   gapi.client.init(gcreds);
