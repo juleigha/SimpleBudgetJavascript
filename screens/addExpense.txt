@@ -1,0 +1,16 @@
+<select id="incomeOrExpense">
+  <option value="E">Expense</option>
+  <option value="I">Income</option>
+</select>
+<input type="text" id="txtInExpense" placeholder="Enter Expense Name">
+<input type="number" id="txtInAmount" placeholder="Enter Amount">
+<select id="frequency">
+  <option value="A">Anually</option>
+  <option value="S">Every Six Months</option>
+  <option value="O">Every Two Months</option>
+  <option value="M">Monthly</option>
+  <option value="B">Bi-Weekly</option>
+  <option value="W">Weekly</option>
+  <option value="D">Daily</option>
+</select>
+  <input id="btnAddExpense" value="Add" type="button"/>
