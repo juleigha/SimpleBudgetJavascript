@@ -7,15 +7,7 @@
 <script type="text/javascript">
 var loggedIn;
 var firebaseConfig = {
-  apiKey: "AIzaSyDR53wNnENbFeOymPE-ghDkgG93F2dwQpA",
-  authDomain: "taskorganizer.firebaseapp.com",
-  databaseURL: "https://taskorganizer-default-rtdb.firebaseio.com",
-  projectId: "taskorganizer",
-  storageBucket: "taskorganizer.appspot.com",
-  messagingSenderId: "1043966159415",
-  appId: "1:1043966159415:web:1c5f3708650d6acbf56db2",
-  // clientId: '1043966159415-0kspdv02a2tdfjtj6r5sj7gcgs3t15vk.apps.googleusercontent.com',
-  measurementId: "G-VHZQY1C7P2"
+
 };
 var GoogleAuth; // Google Auth object.
 firebase.initializeApp(firebaseConfig);
